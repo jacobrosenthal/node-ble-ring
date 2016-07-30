@@ -1,0 +1,23 @@
+{
+  "name": "ble-ring",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jacob Rosenthal",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.chunk": "^4.0.6",
+    "noble-device": "^1.4.0"
+  },
+  "devDependencies": {
+    "regression": "^1.2.1",
+    "noble": "^1.6.0",
+    "async": "^2.0.0-rc.6"
+  },
+  "optionalDependencies":{
+    "core-bluetooth": "sandeepmistry/node-core-bluetooth"
+  }
+}
